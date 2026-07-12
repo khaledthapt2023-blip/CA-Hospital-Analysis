@@ -195,4 +195,4 @@ CA-Hospital-Analysis
 
 **Khaled ThapT**
 
-Data Analyst | Power BI Developer
+BI Developer & Analytics Engineer | Building End-to-End Data Pipelines & Dashboards | Power BI • SQL • Python • dbt
