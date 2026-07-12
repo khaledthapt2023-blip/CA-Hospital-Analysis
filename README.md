@@ -1,36 +1,132 @@
-# CA Hospital Analysis
+# CA Hospital Analysis 🏥
 
-## Overview
+## End-to-End Power BI Business Intelligence Solution for Hospital Operations
 
-CA Hospital Analysis is an end-to-end Business Intelligence project built in Power BI to analyze hospital operations, financial performance, and clinical activities using a Q1 2025 healthcare dataset.
-
-The project demonstrates the complete BI workflow from data preparation and modeling to KPI development, dashboard design, and business storytelling.
+![CA Hospital Dashboard](Images/01-Home.png)
 
 ---
 
-## Objectives
+## 📌 Overview
 
-- Monitor hospital operational performance.
-- Analyze revenue cycle efficiency.
-- Track claim denials and their impact.
-- Evaluate provider performance.
-- Understand patient demographics.
-- Support executive decision-making through interactive dashboards.
+CA Hospital Analysis is an end-to-end Business Intelligence project developed using Power BI to analyze hospital operations, financial performance, clinical activities, and operational efficiency.
 
----
+The project demonstrates a complete BI workflow including:
 
-## Tools & Technologies
+- Data understanding
+- Data cleaning
+- Data modeling
+- KPI development
+- Dashboard design
+- Business storytelling
+- Executive reporting
 
-- Power BI Desktop
-- Power Query
-- DAX
-- Star Schema Data Modeling
+The goal is to transform healthcare data into actionable insights that support better decision-making.
 
 ---
 
-## Dataset
+# 🎯 Business Objectives
 
-The project uses the CA Hospital Dataset (Q1 2025) containing the following tables:
+This project focuses on answering key business questions:
+
+- How is hospital revenue performing?
+- What are the main causes of claim denials?
+- Which providers demonstrate the highest performance?
+- How are patients distributed across demographics?
+- How efficiently are hospital operations managed?
+
+---
+
+# 🚀 Dashboard Features
+
+## Executive Summary
+
+Provides high-level KPIs and management insights including:
+
+- Revenue performance
+- Patient activity overview
+- Operational indicators
+- Executive-level monitoring
+
+## Revenue Cycle Analysis
+
+Analyzes:
+
+- Claims and billing performance
+- Revenue trends
+- Financial indicators
+- Billing efficiency
+
+## Denials Management
+
+Focuses on:
+
+- Denial analysis
+- Claim rejection patterns
+- Financial impact of denied claims
+
+## Clinical Operations
+
+Analyzes:
+
+- Patient encounters
+- Diagnoses
+- Procedures
+- Laboratory activities
+- Medication usage
+
+## Provider Performance
+
+Evaluates:
+
+- Provider activity
+- Operational contribution
+- Performance comparison
+
+## Patient Demographics
+
+Explores:
+
+- Patient distribution
+- Demographic patterns
+- Healthcare utilization insights
+
+---
+
+# 📊 Dashboard Preview
+
+## Executive Summary
+
+![Executive Summary](Images/02-Executive-Summary.png)
+
+## Revenue Cycle
+
+![Revenue Cycle](Images/03-Revenue-Cycle.png)
+
+## Denials Management
+
+![Denials Management](Images/04-Denials-Management.png)
+
+## Clinical Operations
+
+![Clinical Operations](Images/05-Clinical-Operations.png)
+
+## Provider Performance
+
+![Provider Performance](Images/06-Provider-Performance.png)
+
+## Patient Demographics
+
+![Patient Demographics](Images/07-Patient-Demographics.png)
+
+---
+
+# 🏗️ Data Model
+
+The project follows a structured data modeling approach using Star Schema principles.
+
+![Data Model](Images/08-Data-Model.png)
+
+Main Tables:
 
 - Patients
 - Encounters
@@ -44,19 +140,44 @@ The project uses the CA Hospital Dataset (Q1 2025) containing the following tabl
 
 ---
 
-## Dashboard Pages
+# 🛠️ Tools & Technologies
 
-1. Home
-2. Executive Summary
-3. Revenue Cycle
-4. Denials Management
-5. Clinical Operations
-6. Provider Performance
-7. Patient Demographics
+- Power BI Desktop
+- Power Query
+- DAX
+- Data Modeling
+- Star Schema
+- Business Intelligence Concepts
 
 ---
 
-## Project Structure
+# 💼 Business Impact
+
+This solution helps healthcare decision-makers:
+
+- Monitor operational performance.
+- Identify revenue cycle issues.
+- Understand denial patterns.
+- Improve resource utilization.
+- Support data-driven decisions.
+
+---
+
+# 🧠 Skills Demonstrated
+
+- Business Understanding
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Measures Development
+- KPI Design
+- Dashboard Development
+- Data Visualization
+- Business Storytelling
+
+---
+
+# 📂 Project Structure
 
 ```
 CA-Hospital-Analysis
@@ -70,7 +191,7 @@ CA-Hospital-Analysis
 
 ---
 
-## Author
+# 👤 Author
 
 **Khaled ThapT**
 
