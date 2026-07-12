@@ -2,29 +2,34 @@
 
 ## End-to-End Power BI Business Intelligence Solution for Hospital Operations
 
-![CA Hospital Dashboard](Images/01-Home.png)
+[![CA Hospital Dashboard](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/01-Home.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/01-Home.png)
 
 ---
 
 ## 📌 Overview
 
-CA Hospital Analysis is an end-to-end Business Intelligence project developed using Power BI to analyze hospital operations, financial performance, clinical activities, and operational efficiency.
+**CA Hospital Analysis** is an end-to-end Business Intelligence solution built in Power BI, analyzing **60,000 patients**, **70,000 encounters**, and **$112.9M** in billed revenue across a simulated multi-department hospital system (Q1 2025).
 
-The project demonstrates a complete BI workflow including:
+The project covers the full BI lifecycle — from raw healthcare data to an executive-ready 7-page dashboard — including data modeling, DAX measure development, revenue cycle analysis, denial management, and clinical operations reporting.
 
-- Data understanding
-- Data cleaning
-- Data modeling
-- KPI development
-- Dashboard design
-- Business storytelling
-- Executive reporting
+**Key Metrics at a Glance**
 
-The goal is to transform healthcare data into actionable insights that support better decision-making.
+| Metric | Value |
+|---|---|
+| Total Billed Amount | $112.9M |
+| Total Paid Amount | $73M |
+| Collection Rate | 64.52% (vs. 95% target) |
+| Total Encounters | 70,000 |
+| Total Patients | 60,000 |
+| Denial Rate | 8.57% (5,998 denied claims) |
+| Appeal Success Rate | 80.04% |
+| Readmission Rate | 19.64% |
+| Providers Analyzed | 1,491 |
+| Inhouse Provider Rate | 84.7% |
 
 ---
 
-# 🎯 Business Objectives
+## 🎯 Business Objectives
 
 This project focuses on answering key business questions:
 
@@ -36,98 +41,77 @@ This project focuses on answering key business questions:
 
 ---
 
-# 🚀 Dashboard Features
+## 🚀 Dashboard Features
 
-## Executive Summary
-
+### Executive Summary
 Provides high-level KPIs and management insights including:
-
 - Revenue performance
 - Patient activity overview
 - Operational indicators
 - Executive-level monitoring
 
-## Revenue Cycle Analysis
-
+### Revenue Cycle Analysis
 Analyzes:
-
 - Claims and billing performance
 - Revenue trends
 - Financial indicators
 - Billing efficiency
 
-## Denials Management
-
+### Denials Management
 Focuses on:
-
 - Denial analysis
 - Claim rejection patterns
 - Financial impact of denied claims
 
-## Clinical Operations
-
+### Clinical Operations
 Analyzes:
-
 - Patient encounters
 - Diagnoses
 - Procedures
 - Laboratory activities
 - Medication usage
 
-## Provider Performance
-
+### Provider Performance
 Evaluates:
-
 - Provider activity
 - Operational contribution
 - Performance comparison
 
-## Patient Demographics
-
+### Patient Demographics
 Explores:
-
 - Patient distribution
 - Demographic patterns
 - Healthcare utilization insights
 
 ---
 
-# 📊 Dashboard Preview
+## 📊 Dashboard Preview
 
-## Executive Summary
+### Executive Summary
+[![Executive Summary](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/02-Executive-Summary.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/02-Executive-Summary.png)
 
-![Executive Summary](Images/02-Executive-Summary.png)
+### Revenue Cycle
+[![Revenue Cycle](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/03-Revenue-Cycle.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/03-Revenue-Cycle.png)
 
-## Revenue Cycle
+### Denials Management
+[![Denials Management](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/04-Denials-Management.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/04-Denials-Management.png)
 
-![Revenue Cycle](Images/03-Revenue-Cycle.png)
+### Clinical Operations
+[![Clinical Operations](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/05-Clinical-Operations.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/05-Clinical-Operations.png)
 
-## Denials Management
+### Provider Performance
+[![Provider Performance](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/06-Provider-Performance.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/06-Provider-Performance.png)
 
-![Denials Management](Images/04-Denials-Management.png)
-
-## Clinical Operations
-
-![Clinical Operations](Images/05-Clinical-Operations.png)
-
-## Provider Performance
-
-![Provider Performance](Images/06-Provider-Performance.png)
-
-## Patient Demographics
-
-![Patient Demographics](Images/07-Patient-Demographics.png)
+### Patient Demographics
+[![Patient Demographics](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/07-Patient-Demographics.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/07-Patient-Demographics.png)
 
 ---
 
-# 🏗️ Data Model
+## 🏗️ Data Model
 
-The project follows a structured data modeling approach using Star Schema principles.
-
-![Data Model](Images/08-Data-Model.png)
+[![Data Model](https://github.com/khaledthapt2023-blip/CA-Hospital-Analysis/raw/main/Images/08-Data-Model.png)](/khaledthapt2023-blip/CA-Hospital-Analysis/blob/main/Images/08-Data-Model.png)
 
 Main Tables:
-
 - Patients
 - Encounters
 - Claims & Billing
@@ -140,7 +124,7 @@ Main Tables:
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 - Power BI Desktop
 - Power Query
@@ -151,19 +135,18 @@ Main Tables:
 
 ---
 
-# 💼 Business Impact
+## 💼 Business Impact
 
-This solution helps healthcare decision-makers:
+This solution translates raw hospital data into decisions healthcare leadership can act on:
 
-- Monitor operational performance.
-- Identify revenue cycle issues.
-- Understand denial patterns.
-- Improve resource utilization.
-- Support data-driven decisions.
+- **Revenue Cycle:** Identified a 30-point gap between actual (64.52%) and target (95%) collection rate, broken down by insurance provider and month.
+- **Denials Management:** Tracked $9.6M in denied claims through a full denial-to-recovery funnel — surfacing that Precertification/Authorization issues alone account for $766K in denied amounts.
+- **Clinical Operations:** Flagged a 19.64% readmission rate with department-level breakdowns (Pulmonology and ENT above 20%), pinpointing where operational review is needed most.
+- **Provider Performance:** Benchmarked 1,491 providers across specialty and experience group to surface top performers and outliers in readmission rate.
 
 ---
 
-# 🧠 Skills Demonstrated
+## 🧠 Skills Demonstrated
 
 - Business Understanding
 - Data Cleaning
@@ -177,22 +160,29 @@ This solution helps healthcare decision-makers:
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```
 CA-Hospital-Analysis
 │
-├── Dataset
-├── Documentation
-├── Images
-├── Power BI
-└── README.md
+├── Dataset/              # Source data tables
+├── Images/               # Dashboard page screenshots (01-08)
+├── Power BI/              # .pbix file
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-# 👤 Author
+## 👤 Author
 
-**Khaled ThapT**
-
+**Khaled Thapt**
 BI Developer & Analytics Engineer | Building End-to-End Data Pipelines & Dashboards | Power BI • SQL • Python • dbt
+
+[LinkedIn](https://www.linkedin.com/in/khaled-thapt-577252104) · [Email](mailto:khaledthapt2023@gmail.com) · [GitHub](https://github.com/khaledthapt2023-blip)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
